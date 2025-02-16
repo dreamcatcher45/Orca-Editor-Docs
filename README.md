@@ -11,6 +11,9 @@ Orca Editor leverages the powerful WebContainer API to create a secure, isolated
 - **In-Browser Code Execution**  
   Run Node.js and Python applications directly in your browser with built-in, sandboxed runtime environments.
 
+- **File Upload & Import**  
+  Easily upload local files or entire project directories into the editor. Supports drag-and-drop functionality and maintains folder structure during imports.
+
 - **Real-Time Code Editing**  
   Enjoy a seamless coding experience with the Monaco Editor, which provides intelligent code completion, syntax highlighting, and error detection.
 
@@ -41,6 +44,9 @@ Orca Editor creates a virtual development environment using the WebContainer API
 
 - **File Explorer**:  
   A dynamic sidebar that lets you browse, create, and manage files within your virtual file system.
+
+- **File Management**:  
+  Support for file uploads through drag-and-drop or file picker dialog, maintaining directory structures and automatically detecting file types. The virtual file system seamlessly integrates uploaded files into your workspace.
 
 - **Output Panel**:  
   A dedicated area that displays the results of your code execution, logs, and other runtime outputs.
@@ -83,6 +89,9 @@ When you write and save your code, Orca Editor dynamically compiles and executes
 
 - **Enhanced Productivity**:  
   Real-time feedback, hot reloading, and an integrated terminal streamline your development process.
+
+- **Streamlined File Management**:  
+  Import existing projects or individual files with ease, maintaining your local directory structure and file organization.
 
 - **Accessible Anywhere**:  
   Run your projects from any modern browser that supports WebAssembly, making your workspace truly portable.
